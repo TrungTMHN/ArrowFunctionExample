@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Javascript Arrow Function</title>
+        </head>
+        <body>
+            <h2>My best movie series</h2>
+            <hr>
+            <h3 id="FirstSeries"></h3>
+            <h3 id="SecondSeries">007</h3>
+            <script>
+                const display1 = () => "Harry Potter and the Deathly Hallows"
+                document.getElementById("FirstSeries").innerHTML = display1();
+                const display2 = () => "Smallville"
+                document.getElementById("SecondSeries").innerHTML = display2();
+            </script>
+            
+        </body>
+    </html>
